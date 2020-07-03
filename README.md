@@ -44,7 +44,7 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
   *optional* but recommended<br>
   `sudo pacman -S termite xsel scrot compton lxappearance network-manager-applet nautilus`<br>
   *Install*<br>
-  `git clone https://github.com/Dhirajraje/i3wm-astronaut.git && && cp -a i3-astronaut/. ~`<br>
+  `git clone https://github.com/Dhirajraje/i3wm-astronaut.git && && cp -a i3wm-astronaut/. ~`<br>
   
 # Feel free to mess around
 # follow me for more 

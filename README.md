@@ -2,12 +2,12 @@
 Maybe the cutest i3wm setup.
 
 # Thanks
-repo : https://github.com/addy-dclxvi/i3-starterpack
+repo : https://github.com/addy-dclxvi/i3-starterpack <br>
 reddit : r/unixporn - rofi script
 
 # Screenshots
 Home
-<img src="https://github.com/Dhirajraje/i3wm-astronautScreenshots/Cheese_Fri-03Jul20_10.26.png">
+<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/Cheese_Fri-03Jul20_10.26.png">
 Screenshot
 https://github.com/Dhirajraje/i3wm-astronautScreenshots/Cheese_Fri-03Jul20_10.26_000.png
 Termite

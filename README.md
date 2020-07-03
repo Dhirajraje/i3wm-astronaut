@@ -9,17 +9,16 @@ reddit : r/unixporn - rofi script
 Home
 <img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/Cheese_Fri-03Jul20_10.26.png">
 Screenshot
-https://github.com/Dhirajraje/i3wm-astronautScreenshots/Cheese_Fri-03Jul20_10.26_000.png
+<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/Cheese_Fri-03Jul20_10.26_000.png">
 Termite
-https://github.com/Dhirajraje/i3wm-astronautScreenshots/Cheese_Fri-03Jul20_10.26_001.png
+<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/Cheese_Fri-03Jul20_10.26_001.png">
 Rofi
-https://github.com/Dhirajraje/i3wm-astronautScreenshots/Cheese_Fri-03Jul20_10.34.png
-
+<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/Cheese_Fri-03Jul20_10.34.png">
 # just FYI
   wallpaper changes accordingly day-night.
   
   
-  ## Some Cheatsheet
+## Some Cheatsheet
 My keybind is pretty weird, I'm more focus on easy to memorize <br />
 - **Super + D** Launch dmenu alternative called Rofi
 - **Super + Enter** Launch i3-sensible-terminal, termite in this case
@@ -40,12 +39,12 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 
 
 # Installation
-  *Prerequisite*
-  `sudo pacman -S i3wm i3 status rofi i3lock dunst`
-  *optional* but recommended
-  `sudo pacman -S termite xsel scrot compton lxappearance network-manager-applet nautilus`
-  *Install*
-  `git clone https://github.com/Dhirajraje/i3wm-astronaut.git && && cp -a i3-starterpack/. ~`
+  *Prerequisite*<br>
+  `sudo pacman -S i3wm i3 status rofi i3lock dunst`<br>
+  *optional* but recommended<br>
+  `sudo pacman -S termite xsel scrot compton lxappearance network-manager-applet nautilus`<br>
+  *Install*<br>
+  `git clone https://github.com/Dhirajraje/i3wm-astronaut.git && && cp -a i3-starterpack/. ~`<br>
   
 # Feel free to mess around
 # follow me for more 

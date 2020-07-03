@@ -1,7 +1,7 @@
 #/usr/bin/python3
 
 import subprocess, random, os, time
-imageList = subprocess.getoutput("ls ~/Pictures/Wallpapers").split('\n')
+imageList = subprocess.getoutput("ls ~/.Pictures/Wallpapers").split('\n')
 imageListLen = len(imageList)-1
 
 for i in time.asctime().split(' '):

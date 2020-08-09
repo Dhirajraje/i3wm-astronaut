@@ -40,7 +40,7 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 
 # Installation
   *Prerequisite*<br>
-  `sudo pacman -S i3-wm i3status rofi i3lock dunst hsetroot `<br>
+  `sudo pacman -S i3-wm i3status rofi i3lock dunst hsetroot`<br>
   *optional* but recommended<br>
   `sudo pacman -S termite xsel scrot compton lxappearance network-manager-applet nautilus volumeicon flameshot`<br>
   *Install*<br>

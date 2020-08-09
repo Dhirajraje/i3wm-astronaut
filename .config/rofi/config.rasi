@@ -1,171 +1,144 @@
-/*
- *
- * Author : Aditya Shakya (adi1090x)
- * Mail : adi1090x@gmail.com
- * Github : @adi1090x
- * Reddit : @adi1090x
+/**
+ * User: keystroke3
+ * Copyright: keystroke3
  *
  */
 
 configuration {
-    font:                           "Noto Sans 10";
-    show-icons:                     true;
-	icon-theme: 					"Papirus";
-    display-drun: 					"";
-    drun-display-format:            "{name}";
-    threads:                        0;
-    scroll-method:                  0;
-    disable-history:                false;
-    fullscreen:                     false;
-	hide-scrollbar: 				true;
-	sidebar-mode: 					false;
+	display-drun: "";
+	display-run: "";
+	display-window: "";
+	display-ssh: "~#";
+	show-icons: true;
+	sidebar-mode: false;
+	font: "Source Code Pro 15";
 }
-
-/* -- Light -- */
-/*
-* {
-    background:                     #e5e5e5ff;
-    background-alt:                 #e5e5e5ff;
-    background-ib:                  #FFFFFFFF;
-    foreground:                     #000000A6;
-    border:               			#80808066;
-    border-sel:               		#1A73E9FF;
-    selected:               		#D7D7D7FF;
-    urgent:                         #DA4453FF;
-}
-*/
-/* -- Dark -- */
 
 * {
-    background:                     #212121ff;
-    background-alt:                 #212121ff;
-    background-ib:                  #151515FF;
-    foreground:                     #EDEDEDFF;
-    border:               			#EDEDED4d;
-    border-sel:               		#1A73E9FF;
-    selected:               		#151515ff;
-    urgent:                         #DA4453FF;
+	text-color: @foreground;
+	active-background: rgb(170, 70, 104);
+	active-foreground: @foreground;
+	normal-background: @background;
+	normal-foreground: @foreground;
+	urgent-background: #9E2A5E;
+	urgent-foreground: @foreground;
+	alternate-active-background: @background;
+	alternate-active-foreground: @foreground;
+	alternate-normal-background: @background;
+	alternate-normal-foreground: @foreground;
+	alternate-urgent-background: @background;
+	alternate-urgent-foreground: @foreground;
+	selected-active-background: #9E2A5E;
+	selected-active-foreground: @foreground;
+	selected-normal-background: rgb(170, 70, 104);
+	selected-normal-foreground: #0c0816;
+	selected-urgent-background: #9D596B;
+	selected-urgent-foreground: @foreground;
+	background-color: #0c0816;
+	background: #D03C6E30;
+	foreground: #8fc5c6;
+	spacing: 0;
 }
-
 
 window {
-    transparency:                   "real";
-    background-color:               @background;
-    text-color:                     @foreground;
-    border:                  		0px;
-    border-radius:                  25px 25px 0px 0px;
-    border-color:                  	@border;
-    height:                         40%;
-    width:                          100%;
-    location:                       south;
-    anchor:                         south;
-    x-offset:                       0;
-    y-offset:                       0;
-}
-
-prompt {
-    enabled: 						false;
-	padding: 						0px 8px 0px 8px;
-	background-color: 				@background-ib;
-	text-color: 					@foreground;
-	font:							"FantasqueSansMono Nerd Font 20";
-}
-
-
-inputbar {
-    background-color:               @background-ib;
-    text-color:                     @foreground;
-    expand:                         false;
-    border:                  		0px 0px 2px 0px;
-    border-radius:                  30px;
-    border-color:                  	@border;
-    margin:                         10px 35% 0% 35%;
-    padding:                        6px 6px 6px 6px;
-    position:                       center;
-}
-
-entry {
-    background-color:               @background-ib;
-    text-color:                     @foreground;
-    placeholder-color:              @foreground;
-    expand:                         true;
-    horizontal-align:               0.5;
-    padding:                        3px 0px 3px 0px;
-    placeholder:                    "Search Applications";
-    blink:                          true;
-}
-
-case-indicator {
-    background-color:               @background-ib;
-    text-color:                     @foreground;
-    spacing:                        0;
-}
-
-
-listview {
-    background-color:               @background;
-    columns:                        10;
-    spacing:                        4px;
-    cycle:                          false;
-    dynamic:                        true;
-    layout:                         vertical;
+	location: west;
+	anchor: west;
+	height: 70%;
+	width: 25%;
+	orientation: vertical;
+	children: [mainbox];
+	border: 2px 2px 2px 0px;
+	border-color: @active-background;
+	hide-scrollbar: true;
 }
 
 mainbox {
-    background-color:               @background;
-    children:                       [ inputbar, listview ];
-    spacing:                       	10px;
-    padding:                        5px 5px 5px 5px;
+	spacing: 0.2em;
+	children: [inputbar, listview];
 }
+
+
+
+listview {
+	spacing: 0.6em;
+	dynamic: false;
+	cycle: true;
+	padding: 0px 5px 0px 5px;
+}
+
+inputbar {
+	border-radius: 50%;
+	padding: 5px;
+	border-spacing: 5px 0 0 0;
+	border: 1px;
+	spacing: 10px;
+	margin: 5px 0 10px;
+	border-color: @foreground;
+
+}
+
+entry{
+	padding: 2px;
+}
+
+
+prompt{
+	padding: 5px;
+	background-color: @foreground;
+	text-color: @background-color;
+	border: 1px;
+	border-radius: 50%;
+
+}
+
 
 element {
-    background-color:               @background;
-    text-color:                     @foreground;
-    orientation:                    vertical;
-    border-radius:                  0px;
-    margin:                         0px 5px 0px 5px;
-    padding:                        10px 0px 10px 0px;
+	padding: 10px;
+	border-radius: 50%;
 }
 
-element-icon {
-    size:                           64px;
-    border:                         0px;
+element normal.normal {
+	background-color: @normal-background;
+	text-color: @normal-foreground;
 }
 
-element-text {
-    expand:                         true;
-    horizontal-align:               0.5;
-    vertical-align:                 0.5;
-    margin:                         5px 10px 0px 10px;
+element normal.urgent {
+	background-color: @urgent-background;
+	text-color: @urgent-foreground;
 }
 
-element normal.urgent,
-element alternate.urgent {
-    background-color:               @urgent;
-    text-color:                     @foreground;
-    border-radius:                  9px;
+element normal.active {
+	background-color: @active-background;
+	text-color: @active-foreground;
 }
 
-element normal.active,
-element alternate.active {
-    background-color:               @background-alt;
-    text-color:                     @foreground;
-}
-
-element selected {
-    background-color:               @selected;
-    text-color:                     @foreground;
-    border:                  		0px 0px 3px 0px;
-    border-radius:                  15px;
-    border-color:                  	@border-sel;
+element selected.normal {
+	background-color: @selected-normal-background;
+	text-color: @selected-normal-foreground;
+	border-color: @active-background;
 }
 
 element selected.urgent {
-    background-color:               @urgent;
-    text-color:                     @foreground;
+	background-color: @selected-urgent-background;
+	text-color: @selected-urgent-foreground;
 }
 
 element selected.active {
-    background-color:               @background-alt;
-    color:                          @foreground;
+	background-color: @selected-active-background;
+	text-color: @selected-active-foreground;
+}
+
+element alternate.normal {
+	background-color: @normal-background;
+	text-color: @normal-foreground;
+}
+
+element alternate.urgent {
+	background-color: @urgent-background;
+	text-color: @urgent-foreground;
+}
+
+element alternate.active {
+	background-color: @active-background;
+	text-color: @active-foreground;
 }

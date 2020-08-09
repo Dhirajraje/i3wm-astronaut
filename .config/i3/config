@@ -13,12 +13,15 @@ exec --no-startup-id python /home/dhirajraje/.local/bin/TimedWallpaper.py
 exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b
 exec --no-startup-id nm-applet
+exec --no-startup-id numlockx on
+exec --no-startup-id flameshot
 
 # start a terminal
 bindsym $super+Return exec i3-sensible-terminal
 
 # start dmenu (a program launcher)
-bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
+bindsym $super+d exec --no-startup-id "rofi -combi-modi drun,run -show combi"
+bindsym $super+Tab exec --no-startup-id rofi -show window
 
 # common apps keybinds
 bindsym Print exec scrot 'Cheese_%a-%d%b%y_%H.%M.png' -e 'viewnior ~/$f'

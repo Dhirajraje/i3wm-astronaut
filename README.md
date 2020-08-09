@@ -40,11 +40,11 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
 
 # Installation
   *Prerequisite*<br>
-  `sudo pacman -S i3wm i3 status rofi i3lock dunst`<br>
+  `sudo pacman -S i3-wm i3status rofi i3lock dunst hsetroot `<br>
   *optional* but recommended<br>
-  `sudo pacman -S termite xsel scrot compton lxappearance network-manager-applet nautilus`<br>
+  `sudo pacman -S termite xsel scrot compton lxappearance network-manager-applet nautilus volumeicon flameshot`<br>
   *Install*<br>
-  `git clone https://github.com/Dhirajraje/i3wm-astronaut.git && && cp -a i3wm-astronaut/. ~`<br>
+  `git clone https://github.com/Dhirajraje/i3wm-astronaut.git && cp -a i3wm-astronaut/. ~`<br>
   
 # Feel free to mess around
 # follow me for more 

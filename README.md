@@ -3,7 +3,6 @@ Maybe the cutest i3wm setup.
 
 # Thanks
 repo : https://github.com/addy-dclxvi/i3-starterpack <br>
-reddit : r/unixporn - rofi script
 
 # Screenshots
 Home

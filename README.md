@@ -7,13 +7,13 @@ reddit : r/unixporn - rofi script
 
 # Screenshots
 Home
-<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/Cheese_Fri-03Jul20_10.26.png">
+<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/2020-08-10_08-59.png">
 Screenshot
-<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/Cheese_Fri-03Jul20_10.26_000.png">
+<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/2020-08-10_09-04.png">
 Termite
-<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/Cheese_Fri-03Jul20_10.26_001.png">
+<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/2020-08-10_09-02.png">
 Rofi
-<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/Cheese_Fri-03Jul20_10.34.png">
+<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/2020-08-10_09-01.png">
 # just FYI
   wallpaper changes accordingly day-night.
   

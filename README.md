@@ -41,7 +41,7 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
   *Prerequisite*<br>
   `sudo pacman -S i3-wm i3status rofi i3lock dunst hsetroot`<br>
   *optional* but recommended<br>
-  `sudo pacman -S termite xsel scrot compton lxappearance network-manager-applet nautilus volumeicon flameshot`<br>
+  `sudo pacman -S termite xsel scrot compton lxappearance network-manager-applet pcmanfm volumeicon flameshot`<br>
   *Install*<br>
   `git clone https://github.com/Dhirajraje/i3wm-astronaut.git && cp -a i3wm-astronaut/. ~`<br>
   *after installation tweak as per your preferences using lxappearence*

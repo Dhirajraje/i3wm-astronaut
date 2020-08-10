@@ -23,7 +23,7 @@ load {
 
 wireless wlo1 {
         format_up = "<span background='#bd93f9'>   🖧   </span><span background='#e5e9f0'> %essid </span>"
-        format_down = "<span background='#bd93f9'>  </span><span background='#e5e9f0'> Disconnected </span>"
+        format_down = "<span background='#bd93f9'>   🖧   </span><span background='#e5e9f0'> Disconnected </span>"
 }
 
 volume master {

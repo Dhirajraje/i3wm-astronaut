@@ -9,7 +9,7 @@ font pango: Noto Sans 8
 floating_modifier $super
 
 #autostart
-exec --no-startup-id python /home/dhirajraje/.local/bin/TimedWallpaper.py
+exec --no-startup-id walltool
 exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b
 exec --no-startup-id nm-applet
@@ -27,7 +27,8 @@ bindsym $super+Tab exec --no-startup-id rofi -show window
 # common apps keybinds
 bindsym Print exec flameshot full -p ~/Pictures/Screenshots/
 bindsym $super+l exec i3lock -i ~/.Pictures/Wallpapers/.wallpaper.png
-bindsym $super+Shift+w exec google-chrome-stable
+bindsym $super+Shift+w exec walltool
+bindsym $super+w exec brave
 bindsym $super+Shift+f exec pcmanfm
 bindsym $super+Shift+g exec mousepad
 bindsym $super+x exec scrcpy --fullscreen

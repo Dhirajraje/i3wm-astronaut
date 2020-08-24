@@ -13,6 +13,8 @@ Termite
 <img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/2020-08-10_09-02.png">
 Rofi
 <img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/2020-08-10_09-01.png">
+i3status with icon workspace
+<img src="https://github.com/Dhirajraje/i3wm-astronaut/blob/master/sreenshots/statusbar.png">
 # just FYI
   wallpaper changes accordingly day-night.
   
@@ -41,7 +43,7 @@ My keybind is pretty weird, I'm more focus on easy to memorize <br />
   *Prerequisite*<br>
   `sudo pacman -S i3-wm i3status rofi i3lock dunst hsetroot`<br>
   *optional* but recommended<br>
-  `sudo pacman -S termite xsel scrot compton lxappearance network-manager-applet pcmanfm volumeicon flameshot`<br>
+  `sudo pacman -S termite xsel scrot compton lxappearance network-manager-applet pcmanfm volumeicon flameshot awesome-terminal-fonts`<br>
   *Install*<br>
   `git clone https://github.com/Dhirajraje/i3wm-astronaut.git && cp -a i3wm-astronaut/. ~`<br>
   *after installation tweak as per your preferences using lxappearence*
